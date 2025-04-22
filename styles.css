@@ -114,7 +114,7 @@ header {
 
 /* About Section */
 .about-section {
-    padding: 40px 0;
+    padding: 40px 0 10px; /* Reduced bottom padding */
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -149,7 +149,21 @@ footer {
     margin: 0 5px;
 }
 
-/* Responsive Styles */
+/* Contact Information Styling */
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #ff7bac;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #ff7bac;
+}
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
